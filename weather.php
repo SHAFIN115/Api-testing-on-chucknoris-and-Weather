@@ -1,9 +1,9 @@
 <?php
-$apiKey = "c43666a92e23a0ae4ea557a271cbaa31";
+$apiKey = "YOUR API ID";
 $cityId = "524901"; // Example city ID (Moscow)
 
 $apiUrl = "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=c43666a92e23a0ae4ea557a271cbaa31";
-$response = json_decode(file_get_contents("http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=c43666a92e23a0ae4ea557a271cbaa31"), true);
+$response = json_decode(file_get_contents("http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={YOUR API ID"), true);
 
 
 
